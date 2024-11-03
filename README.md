@@ -26,7 +26,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/joshnagurram/icsi-518-software-engineering.git
    ```
 2. Navigate into the project directory: 
 
