@@ -1,0 +1,25 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #4CAF50; /* Primary color */
+    padding: 10px 20px; /* Padding around the navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between; /* Space out items evenly */
+    align-items: center; /* Center items vertically */
+}
+
+.navbar-item {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Padding around each link */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navbar-item:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}

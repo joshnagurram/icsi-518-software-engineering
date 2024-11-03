@@ -1,0 +1,61 @@
+.product-listing-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-grid {
+    display: flex;
+    flex-direction: column; /* Stack tiles vertically */
+    gap: 15px;
+}
+
+.product-tile {
+    display: flex;
+    justify-content: space-between; /* Space between product info and buttons */
+    align-items: center; /* Vertically align items */
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.product-tile:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-info {
+    flex-grow: 1; /* Allow this to take up remaining space */
+}
+
+.product-tile h2 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+.product-tile p {
+    margin: 5px 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    justify-content: center; /* Center buttons vertically */
+}
+
+.btn {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px; /* Add some spacing between buttons */
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
