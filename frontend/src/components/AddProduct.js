@@ -6,7 +6,6 @@ const AddProduct = () => {
     const [name, setName] = useState('');
     const [description, setDescription] = useState('');
     const [price, setPrice] = useState('');
-
     
     const handleSubmit = async (e) => {
         e.preventDefault();
