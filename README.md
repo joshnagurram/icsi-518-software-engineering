@@ -58,7 +58,6 @@ Before you begin, ensure you have met the following requirements:
    ```
 
 ## Usage
-
    #### Running the Application Locally
 
    1. Start the backend server:
